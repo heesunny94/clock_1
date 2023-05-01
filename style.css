@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{ 
+    font-family: 'DungGeunMo';
+    box-sizing: border-box;
+    font-size: 32px;
+  }
+
+  body{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    background-image: url('https://thumbs.gfycat.com/TidyEuphoricHarpyeagle-size_restricted.gif');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clock{
+    min-width: 360px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.5;
+  }
+
+  .today{
+    margin-bottom: 10px;
+  }
+  
+  .time{
+    margin-top: 10px;
+  }
+  
